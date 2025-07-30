@@ -4,9 +4,10 @@ const AMERICA = "https://openapi.tuyaus.com"
 const EUROPE = "https://openapi.tuyaeu.com"
 const INDIA = "https://openapi.tuyain.com"
 const CHINA = "https://openapi.tuyacn.com"
+const SINGAPORE = "https://openapi-sg.iotbing.com"
 
 const TUYA_COUNTRIES = [
-    {"country":"Afghanistan", "countryCode":"93", "endPoint":EUROPE},  
+    {"country":"Afghanistan", "countryCode":"93", "endPoint":EUROPE},
     {"country":"Albania", "countryCode":"355", "endPoint":EUROPE},
     {"country":"Algeria", "countryCode":"213", "endPoint":EUROPE},
     {"country":"American Samoa", "countryCode":"1684", "endPoint":EUROPE},
@@ -177,7 +178,7 @@ const TUYA_COUNTRIES = [
     {"country":"Russia", "countryCode":"7", "endPoint":EUROPE},
     {"country":"Rwanda", "countryCode":"250", "endPoint":EUROPE},
     {"country":"Saint Kitts and Nevis", "countryCode":"1869", "endPoint":EUROPE},
-    {"country":"Saint Lucia", "countryCode":"1758", "endPoint":EUROPE},    
+    {"country":"Saint Lucia", "countryCode":"1758", "endPoint":EUROPE},
     {"country":"Saint Martin", "countryCode":"590", "endPoint":EUROPE},
     {"country":"Saint Pierre and Miquelon", "countryCode":"508", "endPoint":EUROPE},
     {"country":"Saint Vincent and the Grenadines", "countryCode":"1784", "endPoint":EUROPE},
@@ -189,7 +190,7 @@ const TUYA_COUNTRIES = [
     {"country":"Serbia", "countryCode":"381", "endPoint":EUROPE},
     {"country":"Seychelles", "countryCode":"248", "endPoint":EUROPE},
     {"country":"Sierra Leone", "countryCode":"232", "endPoint":EUROPE},
-    {"country":"Singapore", "countryCode":"65", "endPoint":EUROPE},
+    {"country":"Singapore", "countryCode":"65", "endPoint":SINGAPORE},
     {"country":"Sint Maarten", "countryCode":"1721", "endPoint":AMERICA},
     {"country":"Slovakia", "countryCode":"421", "endPoint":EUROPE},
     {"country":"Slovenia", "countryCode":"386", "endPoint":EUROPE},
